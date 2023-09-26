@@ -14,8 +14,9 @@ be personalized with the person’s name.
 """
 
 my_friends = ["Cid", "James", "Ericka", "Lianne", "Carl"]
-message = ("Hello, how are you today ") #This is the message I want to send to my friends
 
-for i in my_friends:
-    print(message + i.title() + "?")
-#Same as last time, but now with it prints a sentence alongside my friends
+print ("Hello, how are you today " + my_friends[0] + "?")
+print ("What's your favorite clothes brand " + my_friends[1] + "?")
+print ("Wow, if you like that. Then do you like bowling? " + my_friends[2])
+print ("Yoo " + my_friends[3] + "! have you watched the new series?")
+print (my_friends[4] + " You like coding right? What language do you mainly use?")
