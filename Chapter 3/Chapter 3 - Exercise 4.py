@@ -14,7 +14,7 @@ a message for them, inviting them over.
 invitees = ["Lianne", "Carl", "Elex", "Kent", "Aki"]
 for i in invitees:
     print ("Dear " + i.title() + """.
-           You have been cordinally invited to my house for dinner, 
+           You have been cordially invited to my house for dinner, 
            please respond as soon as possible, thank you\n""") 
            #This is a message that has the invitees at the start
 
