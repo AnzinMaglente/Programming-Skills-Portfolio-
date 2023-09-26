@@ -17,7 +17,7 @@ for i in my_friends:
     print ("\t", i.title())
 
 """
-This is just a quick way to do list down the names one by one 
+This is just a quick way to list down the names one by one 
 without having to make multiple lines stating:
     print (my_friends[0])
     print (my_friends[1])
