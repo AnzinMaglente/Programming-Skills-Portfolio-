@@ -25,7 +25,7 @@ ctually have an empty list at the end of your program.
 Invitees = ["Lianne", "Carl", "Elex", "Kent", "Aki"]
 for i in Invitees:
     print ("Dear " + i.title() + """.
-           You have been cordinally invited to my house for dinner, 
+           You have been cordially invited to my house for dinner, 
            please respond as soon as possible, thank you\n""")
 
 print("However, " + Invitees[0] + " is unable to come, so a new list was made\n")
@@ -33,7 +33,7 @@ Invitees.pop(0) #The pop function works similarly with the .delete function
 Invitees.append("Fadi")
 for i in Invitees:
     print ("Dear " + i.title() + """,
-           You have been cordinally invited to my house for dinner, 
+           You have been cordially invited to my house for dinner, 
            please respond as soon as possible, thank you\n""")
            
 print("""That was until I realized that I could have only invited two people
