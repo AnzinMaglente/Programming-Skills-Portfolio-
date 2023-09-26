@@ -22,5 +22,5 @@ without having to make multiple lines stating:
     print (my_friends[0])
     print (my_friends[1])
     and so on
-It uses the for function to print out each element inside the list
+It uses the 'for' function to print out each element inside the list
 """
