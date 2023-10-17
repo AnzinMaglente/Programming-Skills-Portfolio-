@@ -10,7 +10,7 @@ Chapter 1 - Exercise 3: Print date and Time
 Write a Python program to display the current date and time.
 """
 
-import datetime #Same thing as last time but it gets the time from your laptop
+import datetime #Same thing as last time but it gets the time from your laptop/PC
 
 now = datetime.datetime.now() #This assigns the current time to a single variable
 
