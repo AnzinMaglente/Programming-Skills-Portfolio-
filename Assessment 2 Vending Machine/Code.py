@@ -153,7 +153,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             product['price'] = res[2]
             product['type'] = res[3]
             definitions.decrease_amount(product_id)
-            print ("You added " + product['item'] + " to your cart, it cost " + str(product['price']) + " and it is in the " + product['type'] + " category.")
+            print ("You added " + product['item'] + " to your cart, it cost " + str(product['price']) + " dhs and it is in the " + product['type'] + " category.")
         else:
             input("Sorry, but the item you selected ran out. Please choose again. ")
             print("")
