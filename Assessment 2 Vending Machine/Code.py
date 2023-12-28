@@ -356,6 +356,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
         remove = input('Are you sure this is your order? Please write "Yes" or "No": ')
         if remove == 'Yes'  or remove == 'yes' or remove == 'YES' or remove == 'y':
             remove_check = True
+            remove == 'Yes'
         elif remove == "No" or remove == 'no' or remove == 'NO' or remove == 'n':
             remove_check = True
             remove == 'No'
@@ -371,8 +372,9 @@ while check == False: #This restarts the loop when it reaches the end unless the
         else:
             definitions.increase_amount(product_id)
             continue
-
-    shopping_cart.append(product) #This adds the product details to the shopping_cart
+    elif remove == 'Yes':
+        shopping_cart.append(product) #This adds the product details to the shopping_cart
+    
     item_check = True
     
     print("\n-----------------------------")
