@@ -424,7 +424,7 @@ while money_check == False: #This loops back until the right amount of coins is 
                         print(f"\t{product['item']} and {product['bundle_item']}")
                     else:
                         print("\t" + product['item'])
-                print("\nThank you for shopping with us.")
+                input("\nThank you for shopping with us.")
                 money_check = True
             elif change_check == 'No':
                 print("\n~~ A sound is heard in the opening beneath ~~\n")
@@ -434,7 +434,7 @@ while money_check == False: #This loops back until the right amount of coins is 
                         print(f"\n{product['item']} and {product['bundle_item']}")
                     else:
                         print("\n" + product['item'])
-                print("\nThank you for shopping with us.")
+                input("\nThank you for shopping with us.")
                 money_check = True
             else:
                 print("Sorry, our system did not recognize your answer please try again.\n")
@@ -457,3 +457,5 @@ while money_check == False: #This loops back until the right amount of coins is 
             current_money += 20
         else:
             print("Sorry, our system did not recognize your answer please try again.\n")
+
+winsound.PlaySound(None, winsound.SND_LOOP + winsound.SND_ASYNC) #This stops the music in the background
