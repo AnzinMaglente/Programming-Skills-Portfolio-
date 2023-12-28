@@ -374,8 +374,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             continue
     elif remove == 'Yes':
         shopping_cart.append(product) #This adds the product details to the shopping_cart
-    
-    item_check = True
+        item_check = True
     
     print("\n-----------------------------")
     
