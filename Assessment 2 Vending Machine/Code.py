@@ -277,7 +277,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             p2 = product['bundle_item']
             definitions.bundle_check(product_id, product, previous_product_id, p1, p2)
 
-    elif product['item'] == 'Kitkat' or  product['item'] == 'Milk':
+    elif product['item'] == 'Kitkat' or  product['item'] == 'Apple Juice':
         if product['item'] == 'Kitkat':
             previous_product_id = product_id
             p1 = product['item']
@@ -288,7 +288,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             product['bundle_item'] = res[1]
             p2 = product['bundle_item']
             definitions.bundle_check(product_id, product, previous_product_id, p1, p2)
-        elif product['item'] == 'Milk':
+        elif product['item'] == 'Apple Juice':
             previous_product_id = product_id
             p1 = product['item']
             product_id = ("Ch2")
@@ -299,7 +299,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             p2 = product['bundle_item']
             definitions.bundle_check(product_id, product, previous_product_id, p1, p2)
 
-    elif product['item'] == 'Chocolate Chip Cookie' or  product['item'] == 'Apple Juice':
+    elif product['item'] == 'Chocolate Chip Cookie' or  product['item'] == 'Milk':
         if product['item'] == 'Chocolate Chip Cookie':
             previous_product_id = product_id
             p1 = product['item']
@@ -310,7 +310,7 @@ while check == False: #This restarts the loop when it reaches the end unless the
             product['bundle_item'] = res[1]
             p2 = product['bundle_item']
             definitions.bundle_check(product_id, product, previous_product_id, p1, p2)
-        elif product['item'] == 'Apple Juice'
+        elif product['item'] == 'Milk'
             previous_product_id = product_id
             p1 = product['item']
             product_id = ("P1")
