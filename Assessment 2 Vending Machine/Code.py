@@ -446,7 +446,7 @@ while money_check == False: #This loops back until the right amount of coins is 
         if money == ("25 fils") or money == ("25 Fils") or money == ("0.25"):
             current_money += 0.25
         elif money == ("50 fils") or money == ("50 Fils") or money == ("0.50"):
-            current_money += 0.25
+            current_money += 0.50
         elif money == ("1 dhs") or money == ("1 Dhs") or money == ("1"):
             current_money += 1
         elif money == ("5 dhs") or money == ("5 Dhs") or money == ("5"):
