@@ -409,7 +409,7 @@ while money_check == False: #This loops back until the right amount of coins is 
                     print("\t" + product['item'] + " and " + product['bundle_item'])
                 else:
                     print("\t" + product['item'])
-            print("\nThank you for shopping with us.")
+            input("\nThank you for shopping with us.")
             money_check = True
         else:
             change_check = input(f'\nPlease enter "Yes" keep your change and "No" if you want to donate it to charity, it is {change_money} dhs: ')
